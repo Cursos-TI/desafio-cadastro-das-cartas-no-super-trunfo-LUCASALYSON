@@ -2,35 +2,35 @@
 
 int main(){
 // variaveis da carta do jogo trunfo;
-//Carta 01
-char codigo01 [4] = "A01";
-char estado01 = 'A';
-char cidade01 [50]; 
-int populacao01;
-float AreaKM01;
-float PIB01;
-int numerosdepontosturisticos01;
+//Carta 02
+char codigo02 [4] = "A01";
+char estado02 = 'A';
+char cidade02 [50]; 
+int populacao02;
+float AreaKM02;
+float PIB02;
+int numerosdepontosturisticos02;
 
 printf("Digite o codigo da carta:\n");
-scanf("%s", &codigo01);
+scanf("%s", &codigo02);
 
 printf("Digite o seu estado:\n");
-scanf("%s", &estado01);
+scanf("%s", &estado02);
 
 printf("Digite sua cidade:\n");
-scanf("%s", &cidade01);
+scanf("%s", &cidade02);
 
 printf("Digite a quantidade populacional:\n");
-scanf("%d", &populacao01);
+scanf("%d", &populacao02);
 
 printf("Digite a areaKM²:\n");
-scanf("%f", AreaKM01);
+scanf("%f", AreaKM02);
 
 printf("Digite o PIB:\n");
-scanf("%f", &PIB01);
+scanf("%f", &PIB02);
 
 printf("Digite o numero de pontos Turisticos:\n");
-scanf("%d", &numerosdepontosturisticos01);
+scanf("%d", &numerosdepontosturisticos02);
 
 
 
