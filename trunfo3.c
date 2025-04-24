@@ -7,7 +7,7 @@ char codigo01 [4] = "A01";
 char estado01 = 'A';
 char cidade01 [50]; 
 int populacao01;
-float AreaKM²01;
+float AreaKM01;
 float PIB01;
 int Numerosdepontosturisticos01;
 float Densidadepopulacional01;
@@ -28,7 +28,7 @@ printf("Digite a quantidade populacional:\n");
 scanf("%d", &populacao01);
 
 printf("Digite a areaKM²:\n");
-scanf("%f", &AreaKM²01);
+scanf("%f", &AreaKM01);
 
 printf("Digite o PIB:\n");
 scanf("%f", &PIB01);
@@ -38,10 +38,10 @@ scanf("%d", &Numerosdepontosturisticos01);
 
 
 
-Densidadepopulacional01 = (populacao01 / AreaKM²01);
+Densidadepopulacional01 = (populacao01 / AreaKM01);
 PIBperCapita01 = (PIB01 / populacao01);
 
-resultado1= (populacao01 + AreaKM²01 + PIB01 + Numerosdepontosturisticos01);
+resultado1= (populacao01 + AreaKM01 + PIB01 + Numerosdepontosturisticos01);
 
 
 
@@ -51,5 +51,9 @@ printf(" O PIBpercapita é: %.2f\n",PIBperCapita01);
 printf("resultado total: %.2f\n", resultado1);
 
 
+
 return 0;
+
+
+
 }
